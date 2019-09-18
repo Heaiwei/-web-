@@ -1,0 +1,422 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: 100% 100%;
+    min-height: 200px;
+    min-width: 300px;
+    background-attachment: fixed;
+}
+
+.Forum-Content {
+    margin: 0;
+    margin-left: 16%;
+    width: 84%;
+    /*min-width: 670px;*/
+    /*min-height:250px;*/
+    /*background-color: rgba(249, 251, 255, 0.6);*/
+}
+
+.Forum-Content-First-Line {
+    position: fixed;
+    margin: 0;
+    z-index: 1000;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    height: 50px;
+    background-color: rgba(251, 255, 249, 1);
+}
+
+#First-Pages, #Write-Pages, #Send-Pages, #Forum-Pages, #Active-Pages, #Recommend-Pages, #Attention-Pages, #Hot-Pages,.Recomment-Attention {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    width: 70px;
+    line-height: 50px;
+    color: #8590a6;
+    cursor: pointer;
+}
+
+#First-Pages {
+    margin-left: 2%;
+    font-weight: 600;
+    color: #219aff;
+}
+
+#Recommend-Pages,.Recomment-Attention{
+    font-size: 14px;
+    color: #219aff;
+}
+.Recomment-Attention{
+    margin-left: 20px;
+}
+#Attention-Pages, #Hot-Pages {
+    font-size: 14px;
+    color: black;
+}
+
+#Write-Pages, #Send-Pages {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 3%;
+    font-weight: 200;
+    color: #f0f0f0;
+    border-radius: 10px;
+    background-color: #219aff;
+}
+
+#Write-Pages {
+    margin-left: 15%;
+}
+
+.Notice-Info, .Default-Img, .My-Collection {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 4%;
+    background: url("../Icon/Notice.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.Default-Img {
+    background: url("../Icon/Default-Person-Img.png") no-repeat;
+    background-size: 100%;
+}
+
+.My-Collection {
+    background: url("../Icon/Like.png") no-repeat;
+    background-size: 100%;
+}
+
+.search, .Search-Info {
+    display: inline-block;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    box-shadow: none;
+}
+
+.search {
+    margin-left: 5%;
+}
+
+.Search-Info {
+    padding: 0 20px 0 20px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #8590a6;
+}
+
+.search_btn {
+    width: 38px;
+    height: 38px;
+    background: url(../Icon/Search.png) left center no-repeat;
+    background-size: 100%;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.Father-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+.Forum-Preview, .Right-Preview {
+    position: absolute;
+    display: inline-block;
+    height: inherit;
+    margin: 0;
+    width: 60%;
+    /*background-color: rgba(249, 251, 255, 0.6);*/
+}
+
+.Right-Preview {
+    overflow: hidden;
+    width: 38%;
+    margin-left: 61%;
+}
+
+.Forum-Preview-Content, .Forum-Preview-Navi,.Person-Preview-Content,.Person-Rec-Attention,.Rec-Attention,.Filing-Info{
+    height: 50px;
+    margin-top: 5px;
+    background-color: #f9fbff;
+}
+
+.Forum-Preview-Navi {
+    overflow: hidden;
+    border-bottom: 1px solid #848484;
+}
+.Filing-Info{
+    height: auto;
+}
+.Forum-Preview-Content{
+    height: auto;
+    margin-top: 0;
+}
+
+.Person-Preview-Content{
+    height: 225px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:rgba(122,122,122,0);
+    border-bottom: 1px solid #848484;
+}
+.Person-Rec-Attention,.Rec-Attention{
+    overflow: hidden;
+    /*width: 75%;*/
+    margin-top: 10px;
+    border-bottom: 1px solid #848484;
+    height: 50px;
+}
+.Rec-Attention{
+    height: auto;
+    margin-top: 0;
+}
+.Recomment-Man{
+    overflow: hidden;
+    height: 40px;
+    padding-top: 15px;
+    /*border-bottom: 1px solid #848484;*/
+}
+.Forum {
+    overflow: hidden;
+    height: auto;
+    border-bottom: 1px solid #848484;
+}
+
+.Forum-Title{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 40px;
+    color: black;
+    font-weight: 700;
+    line-height: 40px;
+}
+.Forum-Matter{
+    padding: 0 20px 0 20px;
+    max-height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /* autoprefixer: off */
+    -webkit-box-orient: vertical; /* autoprefixer: on */
+    -webkit-line-clamp: 4;
+    cursor: pointer;
+    color: black;
+}
+.Forum-Bottom{
+    overflow: hidden;
+    height: 40px;
+    margin-top: 15px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 10px;
+}
+.Agree-Box,.DisAgree-Box,.Comment-Box,.Share-Box,.Collectioon-Box,.Report-Box,.Change-Box,.Leaderboard-Box{
+    display: inline-block;
+    margin:0;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width:100px;
+    border-radius: 5px;
+    background-color: #d9f1ff;
+    cursor: pointer;
+}
+.DisAgree-Box{
+    width: 40px;
+    margin-left: 10px;
+}
+.Comment-Box,.Share-Box,.Collectioon-Box,.Report-Box{
+    background-color: #f9fbff;
+    width: auto;
+    margin-left: 30px;
+}
+.Change-Box{
+    width: auto;
+    margin-left: 30%;
+    background-color: #f9fbff;
+}
+.Leaderboard-Box{
+    width: auto;
+    margin-left: 20%;
+    background-color: #f9fbff;
+}
+.Agree-Img,.DisAgree-Img{
+    width: 15px;
+    height: 15px;
+    background: url("../Icon/up-triangle.png") no-repeat;
+    background-size: 100%;
+}
+.DisAgree-Img{
+    margin-top: 10px;
+    background: url("../Icon/down-triangle.png") no-repeat;
+    background-size: 100%;
+}
+.Comment-Img,.Share-Img,.Collectioon-Img,.Report-Img,.Change-Img,.Rec-Click-Box>button,.Leaderboard-Img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url("../Icon/comment.png") no-repeat;
+    background-size: 100%;
+}
+.Leaderboard-Img{
+    width: 20px;
+    height: 20px;
+    background: url("../Icon/Leaderboard.png") no-repeat;
+    background-size: 100%;
+}
+.Change-Img{
+    background: url("../Icon/Change.png") no-repeat;
+    background-size: 100%;
+}
+.Report-Img{
+    width: 20px;
+    height: 20px;
+    background: url("../Icon/Report.png") no-repeat;
+    background-size: 100%;
+}
+.Collectioon-Img{
+    width: 20px;
+    height: 20px;
+    background: url("../Icon/Collection.png") no-repeat;
+    background-size: 100%;
+}
+.Share-Img{
+    background: url("../Icon/share.png") no-repeat;
+    background-size: 100%;
+}
+.Agree-Num,.Comment-Num,.Share-Num,.Collectioon-Num,.Report-Num,.Change-Pages,.Rec-Click-Box>span,.Leaderboard-Pages{
+    margin-left: 3px;
+    height: 40px;
+    line-height: 40px;
+}
+.img1,.img5{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: 100%;
+}
+.img2{
+    background: url("../img/bg2.jpg") no-repeat;
+    background-size: 100%;
+}
+.img3{
+    background: url("../img/bgp.png") no-repeat;
+    background-size: 100%;
+}
+.img4{
+    background: url("../img/bg3.jpg") no-repeat;
+    background-size: 100%;
+}
+#photo {
+    width: 2425px;
+    animation: switch 8s ease-out infinite;
+}
+
+#photo > img {
+    border-radius: 10px;
+    float: left;
+    cursor: pointer;
+    width: 485px;
+    height: 225px;
+}
+@keyframes switch {
+    0%, 20% {
+        margin-left: 0;
+    }
+    20%, 40% {
+        margin-left: -485px;
+    }
+    40%, 60% {
+        margin-left: -970px;
+    }
+    60%, 80% {
+        margin-left: -1455px;
+    }
+    80%, 100% {
+        margin-left: -1940px;
+    }
+}
+.Rec-Per-Img{
+    width: 40px;
+    height: 40px;
+    /*margin-top: 3px;*/
+    margin-left: 2%;
+    background: url("../Icon/Default-Person-Img.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.Rec-Per-Info-Box,.Rec-Click-Box,.Ignore-Click-Box{
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 2%;
+    width: 35%;
+    height: 40px;
+}
+.Rec-Per-Info-Box p:first-child{
+    padding: 0 0 0 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.Rec-Per-Info-Box p:nth-child(2){
+    font-size: 13px;
+    color: #969696;
+    padding: 0 0 0 10px;
+}
+.Rec-Click-Box{
+    width: auto;
+}
+.Ignore-Click-Box{
+    margin-left: 17%;
+    width: auto;
+}
+.Rec-Click-Box>button,.Ignore-Click-Box>button{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url("../Icon/add.png") no-repeat;
+    background-size: 100%;
+}
+.Rec-Click-Box>span,.Ignore-Click-Box>span{
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #42c02e;
+}
+.Ignore-Click-Box>button{
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    background: url("../Icon/Ignore.png") no-repeat;
+    background-size: 100%;
+}
+.Ignore-Click-Box>span{
+    color: #ff5246;
+}
+.Filing-Info>p{
+    margin-left: 2%;
+    color: #8590a6;
+    padding: 5px 0 5px 5px;
+}
+
+

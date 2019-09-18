@@ -1,0 +1,160 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0 auto; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.Login{
+    /*float: left;*/
+    /*display: none;*/
+    margin-top: 50px;
+    position: fixed;
+    width: 16%;
+    height:auto!important;
+    height:200px;
+    min-height:200px;
+    background-color: rgba(67, 64, 49, 0.53);
+}
+.clearfloat{
+    clear:both;
+    height:0;
+    font-size:1px;
+    line-height:0px;
+}
+.login-info,.Web-Navi,.Other-Choose,.Other-Link{
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid #0da7a0;
+}
+.Head-Navi{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.Web-Navi,.Other-Choose,.Other-Link{
+    height: auto;
+}
+.My-Navi,.Other-Navi,.Friend-Link{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: #f0f0f0;
+}
+.hnust-img{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../../img/hnust-01.jpg") no-repeat;
+    background-size: 100%;
+}
+.My-Avatar{
+
+}
+.hnust-title,.My-Name{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #22c4c4;
+}
+.hnust-title{
+    margin-left: 5px;
+}
+.Click-Login{
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #22c4c4;
+}
+.Head-Pages,.Forum-Pages,.Article-Pages,.Doc-Pages,.Team-Dynamics-Pages,.Person-Info-Pages,.Feedback-Pages,.About-Us,.Source-Code,.Development-ing,.Hnust-Web{
+    text-align: left;
+    overflow: hidden;
+    margin-left: 30px;
+    height: 40px;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.Feedback-Pages{
+    margin-bottom: 10px;
+}
+.Development-ing{
+    margin-bottom: 10px;
+}
+.Hnust-Web{
+    margin-bottom: 7px;
+}
+.Head-Pages-Icon,.Forum-Pages-Icon,.Article-Pages-Icon,.Doc-Pages-Icon,.Team-Dynamics-Pages-Icon,.Person-Info-Pages-Icon,.Feedback-Pages-Icon,.About-Us-Icon,.Source-Code-Icon,.Development-ing-Icon,.Hnust-Web-Icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background: url("../../Icon/Head-Pages.png") no-repeat;
+    background-size: 100%;
+}
+.Head-Pages-Span,.Forum-Pages-Span,.Article-Pages-Span,.Doc-Pages-Span,.Team-Dynamics-Pages-Span,.Person-Info-Span,.Feedback-Span,.About-Us-Span,.Source-Code-Span,.Development-ing-Span,.Hnust-Web-Span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.Forum-Pages-Icon{
+    background: url("../../Icon/Forum-Pages.png") no-repeat;
+    background-size: 100%;
+}
+.Article-Pages-Icon{
+    background: url("../../Icon/Article-Pages.png") no-repeat;
+    background-size: 100%;
+}
+.Doc-Pages-Icon{
+    background: url("../../Icon/Doc-Pages.png") no-repeat;
+    background-size: 100%;
+}
+.Team-Dynamics-Pages-Icon{
+    background: url("../../Icon/Team-Dyna.png") no-repeat;
+    background-size: 100%;
+}
+.Person-Info-Pages-Icon{
+    background: url("../../Icon/Person-info.png") no-repeat;
+    background-size: 100%;
+}
+.Feedback-Pages-Icon{
+    background: url("../../Icon/Feedback.png") no-repeat;
+    background-size: 100%;
+}
+.About-Us-Icon{
+    background: url("../../Icon/About-Us.png") no-repeat;
+    background-size: 100%;
+}
+.Source-Code-Icon{
+    background: url("../../Icon/Source-Code.png") no-repeat;
+    background-size: 100%;
+}
+.Development-ing-Icon{
+    background: url("../../Icon/Development.png") no-repeat;
+    background-size: 100%;
+}
+.Hnust-Web-Icon{
+    background: url("../../Icon/Hnust-Web.png") no-repeat;
+    background-size: 100%;
+}

@@ -1,0 +1,387 @@
+.PersonInfo-Details{
+    position:relative;
+    z-index: 0;
+    height:1100px;
+    width:100%;
+    overflow: hidden;
+    border-bottom:1px solid #f0f0f0;
+    background-image:url("../img/bg1.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.Head-Introduce{
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: #e1e88c;
+}
+.User-Icon-Div{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.User-Icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-size:contain;
+    border-radius: 10px;
+}
+.My-Name{
+    position: absolute;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    color:  #ff1673;
+    width: 100px;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+.My-Skill{
+    position: absolute;
+    overflow: hidden;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 550px;
+    height: 20px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.My-Skill-In{
+    position: absolute;
+}
+.My-Skill-Details{
+    position: absolute;
+    color: #219aff;
+    margin-left: 100px;
+}
+.My-Introduce{
+    float: left;
+    position: absolute;
+    overflow: hidden;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 550px;
+    height: 20px;
+    margin-left: 160px;
+    margin-top:110px;
+}
+.My-Introduce-Name{
+    position: absolute;
+}
+.My-Introduce-Details{
+    position: absolute;
+    color: #219aff;
+    margin-left: 100px;
+}
+.Person-Choose{
+    position: absolute;
+    width: 900px;
+    height: 70px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 260px;
+    overflow: hidden;
+}
+.Change-Introduce{
+    float: left;
+    width: 285px;
+    height: 50px;
+    overflow: hidden;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #ff1673;
+    box-shadow:0px 0px  10px 2px #848484;
+}
+.Change-Introduce-Div{
+    margin-top: 10px;
+}
+.Change-Username-password{
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    overflow: hidden;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-left: 305px;
+    background-color: #e1e88c;
+    box-shadow:0px 0px  10px 2px #848484;
+}
+.Change-Username-password-Div{
+    margin-top: 10px;
+}
+.Change-User-Img{
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    overflow: hidden;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-left: 600px;
+    background-color: #b2fff3;
+    box-shadow:0px 0px  10px 2px #848484;
+}
+.Change-User-Img-Div{
+    margin-top: 10px;
+}
+.Person-Info{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 330px;
+    overflow: hidden;
+    background-color: #e892e6;
+}
+.Person-Change-Introduce{
+    position: absolute;
+    width: 875px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+}
+.Person-Text-Introduce{
+    position: absolute;
+    overflow: hidden;
+    font-size: 13px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Person-Info-Input{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 780px;
+    height: 160px;
+}
+.Person-Change-Skill{
+    position: absolute;
+    width: 875px;
+    height: 200px;
+    margin-top: 210px;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+}
+.Person-Text-Skill{
+    position: absolute;
+    overflow: hidden;
+    font-size: 13px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Person-Skill-Input{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 780px;
+    height: 160px;
+}
+.Person-Change-Button{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 750px;
+    overflow: hidden;
+    background-color: #e82620;
+}
+.Config-Change{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Cancel-Change{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Pserson-Username-Div{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 400px;
+    height: 30px;
+}
+.Pserson-Username-Text{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    font-size: 16px;
+}
+.Pserson-Username-Input{
+    position: absolute;
+    margin-left: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #444;
+}
+.Pserson-Password-Div{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 400px;
+    height: 30px;
+}
+.Pserson-Password-Text{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    font-size: 16px;
+}
+.Pserson-Password-Input{
+    position: absolute;
+    margin-left: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #444;
+}
+.Pserson-NewPassword-Div{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: 250px;
+    width: 400px;
+    height: 30px;
+}
+.Pserson-NewPassword-Text{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    font-size: 16px;
+}
+.Pserson-NewPassword-Input{
+    position: absolute;
+    margin-left: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #444;
+}
+.Pserson-Config-NewPassword-Div{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 400px;
+    height: 30px;
+}
+.Pserson-Config-NewPassword-Text{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    font-size: 16px;
+}
+.Pserson-Config-NewPassword-Input{
+    position: absolute;
+    margin-left: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #444;
+}
+.Person-Username-Change-Button{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    margin-top: 300px;
+    overflow: hidden;
+    background-color: #e82620;
+}
+.Username-Config-Change{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Username-Cancel-Change{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Person-Pic-Div{
+    margin-top: 50px;
+    margin-left: 305px;
+    width: 285px;
+    height: 285px;
+    background-size:contain;
+    border-radius: 10px;
+    background-image: url("../img/ztfn.jpg");
+}
+.Choose-Pic-Where{
+    margin-top: 20px;
+    margin-left: 380px;
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #4c3af9;
+}
+.Person-Pic-Change-Button{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #e82620;
+}
+.Pic-Config-Change{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Pic-Cancle-Change{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 5px;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}

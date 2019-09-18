@@ -1,0 +1,124 @@
+.Document-Details{
+    position:relative;
+    height:1100px;
+    width:100%;
+    border-bottom:1px solid #f0f0f0;
+    background-image:url("../img/body.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+a:hover.Choose-Tips{
+    color: #e82620;
+    background: #7cd9e8;
+}
+.Document-Border{
+    position: relative;
+    top: 100px;
+    width: 900px;
+    height: 1000px;
+    background-color: #f9a93d;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+.Search-Navi {
+    position: absolute;
+    overflow:hidden;
+    width: 900px;
+    height: 50px;
+    background-color: #f0f0f0;
+}
+.Search-Tips{
+    display: inline-block;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 100px;
+}
+
+.Select-Search{
+    display: inline-block;
+    height: 25px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.Start-Search{
+    display: inline-block;
+    border: 0;
+    outline: none;
+    height: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    /*background:url("../img/search.png") right center  no-repeat red;*/
+    box-shadow: 0px 0px 0px #444;
+}
+.Search-Button{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px #444;
+}
+.Docum-class{
+    position: absolute;
+    overflow:hidden;
+    margin-top: 50px;
+    width: 900px;
+    background-color: #39bebe;
+}
+.Choose-Tips{
+    display: inline-block;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Show-Docum{
+    position: absolute;
+    overflow:hidden;
+    margin-top: 105px;
+    margin-left: 5px;
+    width: 890px;
+    background-color: #f0f0ad;
+}
+.Document-Info{
+    height: 100px;
+    box-shadow:0px 0px  1px 1px #848484;
+}
+.Head-Content,.Foot-Content{
+    height: 50px;
+}
+.Docum-Name,.Docum-Intro,.Docum-Time,.Docum-Size,.Docum-Username,.Docum-Down{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    font-size: 15px;
+    line-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Docum-Name{
+    color: #0000C6;
+}
+.Docum-Pagination{
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 900px;
+}
